@@ -3128,6 +3128,10 @@ exports.tests = [
           && ab !== compositeKey(a, c);
       */},
       res: {
+        babel6corejs2: false,
+        babel7corejs3: babel.corejs,
+        typescript1corejs2: typescript.fallthrough,
+        typescript3_2corejs3: typescript.corejs,
       },
     },
     {
@@ -3142,6 +3146,10 @@ exports.tests = [
           && ab !== compositeSymbol(a, c);
       */},
       res: {
+        babel6corejs2: false,
+        babel7corejs3: babel.corejs,
+        typescript1corejs2: typescript.fallthrough,
+        typescript3_2corejs3: typescript.corejs,
       },
     },
   ]
